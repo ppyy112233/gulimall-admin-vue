@@ -5,6 +5,7 @@
 
 <!-- by 潘燕艳 -->
 任务：英文版 README.md——>含项目介绍
+第一次提交的内容
 一、Project Introduction(项目介绍)：
 Gulimall Admin Vue is a modern, high-performance backend management system built with Vue 3 for the Gulimall e-commerce platform. It provides administrators with a sleek interface to manage core e-commerce functionalities, including user authentication, product catalogs, order tracking, and data analytics. Designed for scalability and ease of use, this admin panel is ideal for developers building enterprise-grade e-commerce solutions.
 （项目介绍：Gulimall Admin Vue 是基于 Vue 3 构建的现代化高性能后台管理系统，专为 Gulimall 电子商务平台设计。系统提供直观的管理界面，支持用户认证、商品目录管理、订单追踪及数据分析等核心电商功能。通过模块化设计和响应式布局，本系统可轻松扩展，适合企业级电商解决方案的开发需求。）
@@ -17,6 +18,28 @@ Gulimall Admin Vue is a modern, high-performance backend management system built
 5. Theme Customization（主题定制）: Light/dark mode support with Vue CLI 3
 6. Localization（多语言支持）: Multi-language support (English, Chinese, etc.)
 7. Unit Testing（单元测试）: Jest + Mocha for robust test coverage
+
+
+第二次提交的内容
+三、Technical architecture（技术架构）：
+Frontend（前端框架）: Vue 3, Element Plus, Pinia, Vite
+State Management（状态管理）: Pinia (lightweight alternative to Vuex)
+HTTP Client（网络请求）: Axios with request/response interceptors
+Styling（样式系统）: SCSS + Flexbox/Grid layout system
+Testing（测试方案）: Jest (unit tests) + Cypress (E2E tests)
+Deployment（部署方案）: Docker-friendly containerization
+
+四、Project structure（项目结构）：
+src/
+├── assets/          # Static files (CSS, images)
+├── components/      # Reusable UI components
+├── views/           # Page-level components (e.g., Dashboard.vue)
+├── store/           # Pinia state management
+├── router/          # Vue Router configuration
+├── api/             # Axios instance & API endpoints
+└── tests/           # Unit/Integration tests
+
+
 
 <!-- by 杨露莎 -->
 任务：英文版 README.md——>安装/部署说明
