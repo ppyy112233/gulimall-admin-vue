@@ -69,7 +69,7 @@ cd gulimall-admin-vue
 
 Install dependencies
 npm install
-# or
+or
 yarn install
 Configuration
 Modify API base URLs in the configuration files if needed (typically in src/config or environment variables)
@@ -77,14 +77,14 @@ Configure any other project-specific settings as required
 Development
 Run the development server
 npm run dev
-# or
+or
 yarn dev
 Access the application
 Open your browser and visit: http://localhost:8080 (port may vary based on configuration)
 Production Build
 Create a production build
 npm run build
-# or
+or
 yarn build
 Deployment
 The built files will be in the dist directory
@@ -92,13 +92,12 @@ Deploy these static files to your web server (Nginx, Apache, etc.)
 Additional Commands
 Lint and fix files
 npm run lint
-# or
+or
 yarn lint
 Run unit tests
 npm run test:unit
-# or
+or
 yarn test:unit
-
 
 Notes
 Make sure to configure the correct backend API endpoints before deployment
@@ -106,6 +105,8 @@ For production deployment, consider:
 Enabling gzip compression
 Configuring proper caching headers
 Setting up HTTPS
+
+
 第二次提交：
 Enhanced Installation & Deployment Guide for gulimall-admin-vue
 <font face="Arial, sans-serif" size="5" color="#2E74B5">
@@ -124,18 +125,16 @@ Best Practices for Production
 Prerequisites
 <font face="Arial, sans-serif" size="4" color="#4472C4">
 Before you begin, ensure you have the following installed on your system:
-
+
 Node.js: Version 14.x or higher (Recommended: LTS version)
 <font face="Courier New, monospace" size="3" color="#000000">Download from Node.js official website</font>
-
-
+
 npm or yarn: npm comes with Node.js, or install Yarn via:
 <font face="Courier New, monospace" size="3" color="#000000">npm install -g yarn</font>
-
-
+
 Git: Required for cloning the repository.
 <font face="Courier New, monospace" size="3" color="#000000">Download from Git official website</font>
-
+
 
 Getting Started
 <font face="Arial, sans-serif" size="4" color="#4472C4">
@@ -251,8 +250,14 @@ Set Up HTTPS: Use Let’s Encrypt for free certificates.
 Monitor Performance: Tools like Lighthouse or Google Analytics.
 
 
+
+
+
 <!-- by 陈思思 -->
 任务：英文版 README.md——>带截图主要功能的使用教程
+
+
+
 
 
 <!-- by 覃卫婷 -->
