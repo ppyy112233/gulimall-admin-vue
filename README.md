@@ -63,7 +63,7 @@ Why It Matters: Eliminates redundant "reinventing the wheel," shortens time-to-m
 
 <!-- by 杨露莎 -->
 任务：英文版 README.md——>安装/部署说明
-第一次提交：
+# 杨露莎第一次提交：
 gulimall-admin-vue Project
 Installation & Deployment Guide
 Prerequisites
@@ -115,7 +115,7 @@ Configuring proper caching headers
 Setting up HTTPS
 
 
-第二次提交：
+# 杨露莎第二次提交：
 Enhanced Installation & Deployment Guide for gulimall-admin-vue
 <font face="Arial, sans-serif" size="5" color="#2E74B5">
 
