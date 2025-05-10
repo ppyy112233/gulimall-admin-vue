@@ -106,6 +106,149 @@ For production deployment, consider:
 Enabling gzip compression
 Configuring proper caching headers
 Setting up HTTPS
+第二次提交：
+Enhanced Installation & Deployment Guide for gulimall-admin-vue
+<font face="Arial, sans-serif" size="5" color="#2E74B5">
+
+Table of Contents
+<font face="Arial, sans-serif" size="4" color="#4472C4">
+Prerequisites
+Getting Started
+Configuration
+Development
+Production Build
+Additional Commands
+Troubleshooting
+Best Practices for Production
+
+Prerequisites
+<font face="Arial, sans-serif" size="4" color="#4472C4">
+Before you begin, ensure you have the following installed on your system:
+
+Node.js: Version 14.x or higher (Recommended: LTS version)
+<font face="Courier New, monospace" size="3" color="#000000">Download from Node.js official website</font>
+
+
+npm or yarn: npm comes with Node.js, or install Yarn via:
+<font face="Courier New, monospace" size="3" color="#000000">npm install -g yarn</font>
+
+
+Git: Required for cloning the repository.
+<font face="Courier New, monospace" size="3" color="#000000">Download from Git official website</font>
+
+
+Getting Started
+<font face="Arial, sans-serif" size="4" color="#4472C4">
+Clone the Repository
+<font face="Arial, sans-serif" size="3.5" color="#548235">
+1.Open your terminal or command prompt.
+
+2.Run the following command to clone the repository:
+
+<font face="Courier New, monospace" size="3" color="#000000">git clone https://github.com/jklive/gulimall-admin-vue.git</font>
+
+3.Navigate to the project directory:
+
+<font face="Courier New, monospace" size="3" color="#000000">cd gulimall-admin-vue</font>
+Install Dependencies
+
+<font face="Arial, sans-serif" size="3.5" color="#548235">
+Install all required dependencies using npm or yarn:、
+
+Using npm:
+<font face="Courier New, monospace" size="3" color="#000000">npm install</font>
+
+Using yarn:
+<font face="Courier New, monospace" size="3" color="#000000">yarn install</font>
+
+Configuration
+<font face="Arial, sans-serif" size="4" color="#4472C4">
+Environment Variables
+<font face="Arial, sans-serif" size="3.5" color="#548235">
+Create a .env file in the root directory for environment-specific configurations. Example:
+<font face="Courier New, monospace" size="3" color="#000000">
+env
+复制
+下载
+VUE_APP_API_BASE_URL=https://api.your-backend.com  
+VUE_APP_MODE=development  
+</font>
+API Configuration
+<font face="Arial, sans-serif" size="3.5" color="#548235">
+Modify the API base URL and other settings in the configuration files located in src/config/ or directly in the .env file.
+
+Development
+<font face="Arial, sans-serif" size="4" color="#4472C4">
+Run the Development Server
+<font face="Arial, sans-serif" size="3.5" color="#548235">
+Start the development server with hot-reloading:
+
+Using npm:
+<font face="Courier New, monospace" size="3" color="#000000">npm run dev</font>
+
+Using yarn:
+<font face="Courier New, monospace" size="3" color="#000000">yarn dev</font>
+
+Access the Application
+<font face="Arial, sans-serif" size="3.5" color="#548235">
+Once the server is running, open your browser and visit:
+<font face="Courier New, monospace" size="3" color="#000000">http://localhost:8080</font>
+
+Production Build
+<font face="Arial, sans-serif" size="4" color="#4472C4">
+Create a Production Build
+<font face="Arial, sans-serif" size="3.5" color="#548235">
+Generate optimized static files for production:
+
+Using npm:
+<font face="Courier New, monospace" size="3" color="#000000">npm run build</font>
+
+Using yarn:
+<font face="Courier New, monospace" size="3" color="#000000">yarn build</font>
+
+Deployment
+<font face="Arial, sans-serif" size="3.5" color="#548235">
+Deploy the contents of the dist/ directory to your preferred web server.
+
+Additional Commands
+<font face="Arial, sans-serif" size="4" color="#4472C4">
+Linting
+<font face="Arial, sans-serif" size="3.5" color="#548235">
+Run ESLint to check and fix code style issues:
+
+Using npm:
+<font face="Courier New, monospace" size="3" color="#000000">npm run lint</font>
+
+Using yarn:
+<font face="Courier New, monospace" size="3" color="#000000">yarn lint</font>
+
+Testing
+<font face="Arial, sans-serif" size="3.5" color="#548235">
+Execute unit tests:
+
+Using npm:
+<font face="Courier New, monospace" size="3" color="#000000">npm run test:unit</font>
+
+Using yarn:
+<font face="Courier New, monospace" size="3" color="#000000">yarn test:unit</font>
+
+Troubleshooting
+<font face="Arial, sans-serif" size="4" color="#4472C4">
+
+Dependency Installation Issues: Delete node_modules/ and package-lock.json, then reinstall dependencies.
+
+Port Conflicts: Modify devServer.port in vue.config.js.
+
+API Connection Errors: Verify VUE_APP_API_BASE_URL in .env.
+
+Best Practices for Production
+<font face="Arial, sans-serif" size="4" color="#4472C4">
+
+Enable Gzip Compression: Configure in Nginx or Apache.
+
+Set Up HTTPS: Use Let’s Encrypt for free certificates.
+
+Monitor Performance: Tools like Lighthouse or Google Analytics.
 
 
 <!-- by 陈思思 -->
