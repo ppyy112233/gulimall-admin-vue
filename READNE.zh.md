@@ -73,7 +73,7 @@ AI应用：智能商品推荐与客服工单分类
 中文翻译版本 README.zh.md（可借助 AI，但需润色）
 任务：中文翻译版本 README.zh.md——>安装/部署说明
 第一次提交：
-一、安装
+安装/部署说明
 Node.js	验证命令(node -v)	Node.js 中文镜像站
 npm	验证命令(npm -v)	npm config set registry https://registry.npmmirror.com
 Git	git --version-
@@ -187,13 +187,19 @@ API 请求失败：确认后端服务已启动，且 proxy_pass 地址正确。
 Docker 端口冲突：检查 docker-compose.yml 中的端口映射配置。
 权限问题：确保 Nginx 有权限读取静态资源目录（chmod -R 755 /var/www/html/gulimall-admin）。
 
+
+
 <!-- by 李金焕 -->
 中文翻译版本 README.zh.md（可借助 AI，但需润色）
 任务：中文翻译版本 README.zh.md——>带截图主要功能的使用教程
 
 
+
+
 <!-- by 王  愉 -->
 项目术语表（中英文对照，不少于 5 个关键词）
+
+
 
 <!-- by 覃卫婷 -->
 请使用AI对专业术语进行审核。审核——>中文版 README.zh.md,是否有错别字，如果有请重新提交
