@@ -5,12 +5,16 @@
 
 <!-- by 潘燕艳 -->
 任务：英文版 README.md——>含项目介绍
-第一次提交的内容
+# 潘燕艳第一次提交：
+
 一、Project Introduction(项目介绍)：
+
 Gulimall Admin Vue is a modern, high-performance backend management system built with Vue 3 for the Gulimall e-commerce platform. It provides administrators with a sleek interface to manage core e-commerce functionalities, including user authentication, product catalogs, order tracking, and data analytics. Designed for scalability and ease of use, this admin panel is ideal for developers building enterprise-grade e-commerce solutions.
+
 （项目介绍：Gulimall Admin Vue 是基于 Vue 3 构建的现代化高性能后台管理系统，专为 Gulimall 电子商务平台设计。系统提供直观的管理界面，支持用户认证、商品目录管理、订单追踪及数据分析等核心电商功能。通过模块化设计和响应式布局，本系统可轻松扩展，适合企业级电商解决方案的开发需求。）
 
 二、Core characteristics(核心特性)：
+
 1. Role-Based Access Control (RBAC)（基于角色的访问控制 ）: Granular permission management for admin roles
 2. Dynamic Dashboard（动态仪表盘）: Customizable widgets for real-time analytics and system monitoring
 3. CRUD Operations（CRUD 操作）: Intuitive interfaces for managing users, products, orders, and categories
@@ -20,8 +24,10 @@ Gulimall Admin Vue is a modern, high-performance backend management system built
 7. Unit Testing（单元测试）: Jest + Mocha for robust test coverage
 
 
-第二次提交的内容
+# 潘燕艳第二次提交：
+
 三、Technical architecture（技术架构）：
+
 Frontend（前端框架）: Vue 3, Element Plus, Pinia, Vite
 State Management（状态管理）: Pinia (lightweight alternative to Vuex)
 HTTP Client（网络请求）: Axios with request/response interceptors
@@ -41,12 +47,14 @@ src/
 
 
 五、Technical Highlights（技术亮点说明）：
+
 1. Modular Architecture: Independent modules (User Management, Product Catalog, Order Tracking) enable plug-and-play scalability.
 2. Performance Optimization: Leverages Vite build tool, achieving 50%+ faster build speeds compared to Webpack.
 3. Enterprise Integration: Seamlessly compatible with Java/Spring Boot backend architectures, supporting microservices communication protocols.
 4. Test-Driven Development: Features 85%+ unit test coverage and critical E2E test cases for core workflows.
 
 六、Key Value Propositions（主要价值主张）:
+
 Accelerated Iteration: Ideal for teams managing high-frequency updates in mid/backend systems, reducing development cycles by up to 50% through pre-built modules.
 SaaS Empowerment: Simplifies multi-tenant architecture design, API management, and scalable deployment—crucial for SaaS platform developers.
 Digital Transformation: Provides traditional enterprises with a low-code, standards-aligned solution to modernize legacy systems, cutting migration costs by 30%-50%.
