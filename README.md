@@ -55,6 +55,57 @@ Why It Matters: Eliminates redundant "reinventing the wheel," shortens time-to-m
 
 <!-- by 杨露莎 -->
 任务：英文版 README.md——>安装/部署说明
+第一次提交：
+gulimall-admin-vue Project
+Installation & Deployment Guide
+Prerequisites
+Node.js (version 14.x or higher recommended)
+npm or yarn package manager
+Git
+Getting Started
+Clone the repository
+git clone https://github.com/jklive/gulimall-admin-vue.git
+cd gulimall-admin-vue
+
+Install dependencies
+npm install
+# or
+yarn install
+Configuration
+Modify API base URLs in the configuration files if needed (typically in src/config or environment variables)
+Configure any other project-specific settings as required
+Development
+Run the development server
+npm run dev
+# or
+yarn dev
+Access the application
+Open your browser and visit: http://localhost:8080 (port may vary based on configuration)
+Production Build
+Create a production build
+npm run build
+# or
+yarn build
+Deployment
+The built files will be in the dist directory
+Deploy these static files to your web server (Nginx, Apache, etc.)
+Additional Commands
+Lint and fix files
+npm run lint
+# or
+yarn lint
+Run unit tests
+npm run test:unit
+# or
+yarn test:unit
+
+
+Notes
+Make sure to configure the correct backend API endpoints before deployment
+For production deployment, consider:
+Enabling gzip compression
+Configuring proper caching headers
+Setting up HTTPS
 
 
 <!-- by 陈思思 -->
