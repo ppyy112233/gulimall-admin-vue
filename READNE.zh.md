@@ -31,7 +31,7 @@
 六、项目总结
 谷粒商城后台管理系统前端vue项目是电商后台开发的高效工具，适合电商企业、开发团队及个人开发者快速搭建功能完善的后台管理系统，降低开发成本，加速业务上线。
 
-#第二次提交：
+# 第二次提交：
 谷粒商城后台管理系统前端vue项目（gulimall-admin-vue）项目介绍
 在电商行业高速发展的背景下，传统后台管理系统面临功能单一、扩展性差、响应慢等挑战，难以满足现代电商业务快速迭代的需求。基于 Vue.js 与 Element UI 打造的谷粒商城后台管理系统前端vue项目（gulimall-admin-vue），以"电商业务赋能"为核心定位，为开发者提供高效、灵活的电商后台解决方案。
 一、核心价值：专注电商场景，提升管理效率
@@ -71,7 +71,7 @@ AI应用：智能商品推荐与客服工单分类
 <!-- by 梁佐妃 -->
 中文翻译版本 README.zh.md（可借助 AI，但需润色）
 任务：中文翻译版本 README.zh.md——>安装/部署说明
-#第一次提交：
+# 第一次提交：
 安装/部署说明
 Node.js	验证命令(node -v)	Node.js 中文镜像站
 npm	验证命令(npm -v)	npm config set registry https://registry.npmmirror.com
@@ -89,7 +89,7 @@ VUE_APP_API_BASE_URL=http://localhost:8081/api/remote
 5. 本地开发运行启动后端服务
 进入后端项目目录
 cd gulimall-parent/gulimall-admin
-# 启动 Spring Boot 应用
+启动 Spring Boot 应用
 mvn spring-boot:run
 启动前端服务
 返回前端项目根目录
@@ -115,7 +115,7 @@ npm run build
 7.2 配置 Nginx
 将输出的 dist 目录部署到 Nginx，配置反向代理指向后端服务。
 
-#第二次提交：
+# 第二次提交：
 1. 基础工具安装
 Node.js	Windows/Mac 一键安装包	node -v	下载时选择 cnpm 镜像源
 npm	随Node.js自动安装	npm -v	npm config set registry https://registry.npmmirror.com
