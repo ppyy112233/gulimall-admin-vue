@@ -277,4 +277,4 @@ Docker 端口冲突：检查 docker-compose.yml 中的端口映射配置。
 
 
 <!-- by 覃卫婷 -->
-请使用AI对专业术语进行审核。审核——>中文版 README.zh.md,是否有错别字，如果有请重新提交
+请使用AI对专业术语进行审核。审核——>中文版 README.zh.md和英文版README.md,是否有错别字，如果有请重新提交
