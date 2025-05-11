@@ -60,6 +60,15 @@ Why It Matters: Eliminates redundant "reinventing the wheel," shortens time-to-m
 <!-- by 陈思思 -->
 任务：英文版 README.md——>带截图主要功能的使用教程
 
+1. System LoginLogin Interface: Open the system login page, enter the username: admin (default administrator account), enter the password, and enter the verification code (for example, d3yxa as shown in the image), then just log in.
+2. System Management FunctionsSystem Management Interface: After a successful login, the left menu bar will display the main functional modules of the system.
+2.1 Administrator ListClick "System Management" > "Administrator List"
+2.2 Role ManagementClick "System Management" > "Role Management"
+2.3 Menu ManagementClick "System Management" > "Menu Management"The interface displays all menu items in the system (as shown in the screenshot)Functions include:Firstly, adding a new menu (click the "Add" button),Secondly, editing an existing menu (click the "Edit" button),Thirdly, deleting a menu (click the "Delete" button),Lastly, adjusting the menu order (modify the "Sort Number" field).
+2.4 Other System Management FunctionsSQL Monitoring: View SQL execution status of the system.Scheduled Tasks: Set up and manage system scheduled tasks.Parameter Management: Manage system configuration parameters.File Upload: Manage the file upload feature of the system.System Log: View system operation logs.
+3. Basic Operation GuideAdd Operation: There is usually an "Add" button at the top of most list pages.Edit Operation: There is an "Edit" button on the right side of each record.Delete Operation: There is a "Delete" button on the right side of each record.Table Operations:Sort using the table headers.Use the pagination controls to browse multi-page data.You can adjust the number of items displayed per page.
+4. PrecautionsThe administrator account has the highest privileges; please keep the password safe.It is recommended to back up before modifying the system core configuration.Delete operations are usually irreversible; please operate with caution.
+
 
 <!-- by 覃卫婷 -->
 请使用AI对专业术语进行审核。审核——>英文版 README.md,是否有错别字，如果有请重新提交
