@@ -280,3 +280,43 @@ Monitor Performance: Tools like Lighthouse or Google Analytics.
 
 <!-- by 覃卫婷 -->
 请使用AI对专业术语进行审核。审核——>英文版 README.md,是否有错别字，如果有请重新提交
+# 覃卫婷第一次提交：
+1. System Login Interface:
+   Open the system login page, enter the username: admin (default administrator account), enter the password, and enter the verification code (e.g., d3yxa as shown in the image). Then, click the "Login" button to access the system.
+
+2. System Management Functions:
+   After a successful login, the left menu bar will display the main functional modules of the system.
+
+   2.1 Administrator List:
+       Click "System Management" > "Administrator List".
+
+   2.2 Role Management:
+       Click "System Management" > "Role Management".
+
+   2.3 Menu Management:
+       Click "System Management" > "Menu Management". The interface displays all menu items in the system (as shown in the screenshot). Functions include:
+       - Adding a new menu (click the "Add" button).
+       - Editing an existing menu (click the "Edit" button).
+       - Deleting a menu (click the "Delete" button).
+       - Adjusting the menu order (modify the "Sort Number" field).
+
+   2.4 Other System Management Functions:
+       - SQL Monitoring: View SQL execution status of the system.
+       - Scheduled Tasks: Set up and manage system scheduled tasks.
+       - Parameter Management: Manage system configuration parameters.
+       - File Upload: Manage the file upload feature of the system.
+       - System Log: View and analyze system operation logs to track user activities and diagnose issues.
+
+3. Basic Operation Guide:
+   - **Add Operation**: An "Add" button is located at the top of most list pages.
+   - **Edit Operation**: An "Edit" button is located on the right side of each record.
+   - **Delete Operation**: A "Delete" button is located on the right side of each record.
+   - **Table Operations**:
+     - Sort using the table headers.
+     - Use the pagination controls to browse multi-page data.
+     - Adjust the number of items displayed per page.
+
+4. Precautions:
+   - The administrator account has the highest privileges; please keep the password safe.
+   - It is recommended to back up the system before modifying core configuration settings.
+   - Delete operations are usually irreversible; please operate with caution.
