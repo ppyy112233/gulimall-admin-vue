@@ -280,7 +280,7 @@ Monitor Performance: Tools like Lighthouse or Google Analytics.
 
 <!-- by 覃卫婷 -->
 请使用AI对专业术语进行审核。审核——>英文版 README.md,是否有错别字，如果有请重新提交
-# 覃卫婷第一次提交：
+# 覃卫婷第一次提交：（对陈思思的内容进行修改）
 1. System Login Interface:
    Open the system login page, enter the username: admin (default administrator account), enter the password, and enter the verification code (e.g., d3yxa as shown in the image). Then, click the "Login" button to access the system.
 
