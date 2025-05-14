@@ -280,3 +280,82 @@ Monitor Performance: Tools like Lighthouse or Google Analytics.
 
 <!-- by 覃卫婷 -->
 请使用AI对专业术语进行审核。审核——>英文版 README.md,是否有错别字，如果有请重新提交
+# 覃卫婷第一次提交：（对陈思思的内容进行修改）
+1. System Login Interface:
+   Open the system login page, enter the username: admin (default administrator account), enter the password, and enter the verification code (e.g., d3yxa as shown in the image). Then, click the "Login" button to access the system.
+
+2. System Management Functions:
+   After a successful login, the left menu bar will display the main functional modules of the system.
+
+   2.1 Administrator List:
+       Click "System Management" > "Administrator List".
+
+   2.2 Role Management:
+       Click "System Management" > "Role Management".
+
+   2.3 Menu Management:
+       Click "System Management" > "Menu Management". The interface displays all menu items in the system (as shown in the screenshot). Functions include:
+       - Adding a new menu (click the "Add" button).
+       - Editing an existing menu (click the "Edit" button).
+       - Deleting a menu (click the "Delete" button).
+       - Adjusting the menu order (modify the "Sort Number" field).
+
+   2.4 Other System Management Functions:
+       - SQL Monitoring: View SQL execution status of the system.
+       - Scheduled Tasks: Set up and manage system scheduled tasks.
+       - Parameter Management: Manage system configuration parameters.
+       - File Upload: Manage the file upload feature of the system.
+       - System Log: View and analyze system operation logs to track user activities and diagnose issues.
+
+3. Basic Operation Guide:
+   - **Add Operation**: An "Add" button is located at the top of most list pages.
+   - **Edit Operation**: An "Edit" button is located on the right side of each record.
+   - **Delete Operation**: A "Delete" button is located on the right side of each record.
+   - **Table Operations**:
+     - Sort using the table headers.
+     - Use the pagination controls to browse multi-page data.
+     - Adjust the number of items displayed per page.
+
+4. Precautions:
+   - The administrator account has the highest privileges; please keep the password safe.
+   - It is recommended to back up the system before modifying core configuration settings.
+   - Delete operations are usually irreversible; please operate with caution.
+
+# 覃卫婷第二次提交：（对李金焕的内容进行修改）
+## 一、系统登录界面
+“RENREN-FAST-VUE”管理平台是一个基于 Vue 的前端管理系统，用户需通过管理员身份认证方可进入系统。
+### 登录步骤
+1. 在用户名输入框中填写管理员账号（默认为 admin）。
+2. 在密码输入框中输入对应的登录密码。
+3. 点击验证码区域的刷新按钮，获取最新的验证码图片。
+4. 根据验证码图片输入正确的字符（区分大小写）。
+5. 点击“登录”按钮进入系统。
+
+## 二、开发平台功能说明
+进入开发平台后，系统提供多种操作模块，包括角色管理、菜单管理、SQL监控、定时任务、参数管理、系统日志、文件上传等功能。
+### 1. 菜单管理
+1. 点击左侧菜单栏中的“菜单管理”进入该模块。
+2. 点击“新增”按钮，创建一个新的菜单。
+3. 在新增菜单页面，填写以下信息：
+   - **菜单名称**：为菜单输入一个明确的名称。
+   - **上级菜单**：选择菜单的父级菜单（可选）。
+   - **图标**：设置菜单的图标。
+   - **类型**：选择菜单类型（目录、菜单或按钮）。
+   - **排序号**：设置菜单的显示顺序。
+   - **菜单URL**：输入菜单对应的页面路径。
+   - **授权标识**：为菜单分配权限标识（如 `sys:menu:add`）。
+4. 新增完成后，可对菜单进行修改或删除操作。
+
+## 三、其他功能模块
+平台还提供以下功能模块：
+- **角色管理**：管理用户角色及权限分配。
+- **SQL监控**：查看系统 SQL 执行状态。
+- **定时任务**：设置和管理系统的定时任务。
+- **参数管理**：配置系统参数。
+- **文件上传**：管理系统中的文件上传功能。
+- **系统日志**：查看并分析系统操作日志。
+
+## 四、注意事项
+1. 管理员账号具有最高权限，请妥善保管密码。
+2. 建议在修改系统核心配置前备份数据。
+3. 删除操作通常不可逆，请谨慎操作。
